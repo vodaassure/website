@@ -30,6 +30,14 @@ header h1 {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+header p {
+    font-size: 1.5em;
+    color: #ffeb3b;
+    margin-top: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+}
+
 /* Navigation Styling */
 nav ul {
     list-style: none;
