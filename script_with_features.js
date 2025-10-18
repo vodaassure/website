@@ -55,11 +55,11 @@ greeting.style.fontWeight = "bold";
 const hour = new Date().getHours();
 let greetingText = "";
 if (hour < 12) {
-    greetingText = "Good Morning! Welcome to Aditya's Website.";
+    greetingText = "Good Morning! Welcome to Prachi's Website.";
 } else if (hour < 18) {
-    greetingText = "Good Afternoon! Welcome to Aditya's Website.";
+    greetingText = "Good Afternoon! Welcome to Prachi's Website.";
 } else {
-    greetingText = "Good Evening! Welcome to Aditya's Website.";
+    greetingText = "Good Evening! Welcome to Prachi's Website.";
 }
 greeting.textContent = greetingText;
 document.querySelector("header").appendChild(greeting);
